@@ -1,6 +1,10 @@
 AnyStyle Editor
 ===============
-The token editor used by [AnyStyle.io](http://anystyle.io).
+The parser interface and token editor used by [AnyStyle.io](http://anystyle.io).
+
+Requirements
+------------
+CoffeeScript, Haml/Sass, jQuery, Angular.js, Spin.js.
 
 License
 -------
