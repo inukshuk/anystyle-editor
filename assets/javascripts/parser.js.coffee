@@ -375,20 +375,6 @@ angular.
           body = form = null
           document.off 'mouseup.anystyle'
 
-        # Mock Input
-        # scope.source =
-          """
-          Lamm, C., Zucconi, A., & Silani, G. (2013). Carl Rogers Meets the Neurosciences: Insights from Social Neuroscience for Client-Centered Therapy. In J. H. D. Cornelius-White, R. Motschnig-Pitrik & M. Lux (Hrsg.), Interdisciplinary Handbook of the Person-Centered Approach (63–78). New York: Springer.
-          Fisher, L. (2013). How Can I Trust You? Encounters with Carl Rogers and Game Theory. In J. H. D. Cornelius-White, R. Motschnig-Pitrik & M. Lux (Hrsg.), Interdisciplinary Handbook of the Person-Centered Approach (299–317). New York: Springer.
-          Rachlin, H., Sommerbeck, L., & Frankel, M. (2010). Rogers’ concept of the actualizing tendency in relation to Darwinian theory. (M. Cooper, J. C. Watson & W. B. Stiles, Eds.) Person-Centered & Experiential Psychotherapies, 9(1), 69-80.
-          Mason, M. J. (2009). Rogers Redux: Relevance and Outcomes of Motivational Interviewing Across Behavioral Problems. Journal of Counseling and Development, 87(3), 357–362.
-          """
-
-        # Parse Mock Input
-        # setTimeout(->
-        #   scope.parse()
-        # 200)
-
   ]).
 
   directive('affix', [
